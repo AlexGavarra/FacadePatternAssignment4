@@ -12,7 +12,3 @@ The HotelApp needs to manage various hotel services for guest check-in and check
 - **Cart:** A service class implementing the HotelService interface, responsible for handling luggage cart requests. It includes the `requestCart(numberOfCarts)` method.
 - **FrontDesk:** The facade class that coordinates interactions between the client (HotelApp) and the individual hotel services.
 - **HotelApp:** The client class that uses the FrontDesk facade to access and utilize hotel services seamlessly.
-
-## UML Class Diagram
-
-<img src="UML_DIagramm.png">
